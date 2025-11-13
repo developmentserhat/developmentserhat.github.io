@@ -107,27 +107,17 @@
 }
 
 .section-title .sub-style::before {
-    content: "";
     width: 100px;
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
-    margin-top: 8px;
-    margin-left: -100px;
-    border: 1px solid var(--bs-primary) !important;
 }
 
 .section-title .sub-style::after {
-    content: "";
     width: 50px;
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
-    margin-bottom: 5px;
-    margin-left: -50px;
-    border: 1px solid var(--bs-primary) !important;
 }
 
 .sub-title {
@@ -138,27 +128,17 @@
 }
 
 .sub-title::before {
-    content: "";
     width: 100px;
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-50%);
-    margin-top: 8px;
-    margin-right: -100px;
-    border: 1px solid var(--bs-primary) !important;
 }
 
 .sub-title::after {
-    content: "";
     width: 50px;
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-50%);
-    margin-bottom: 8px;
-    margin-right: -50px;
-    border: 1px solid var(--bs-primary) !important;
 }
 
 
