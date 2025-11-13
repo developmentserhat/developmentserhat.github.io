@@ -28,6 +28,14 @@
     z-index: 99;
 }
 
+/*** Title Sizing Start ***/
+.responsive-title-clamped {
+  font-size: clamp(1rem, 5vw, 2rem);
+  /* Min: 1.5rem, Preferred: 5vw, Max: 4rem */
+  font-weight: bold;
+  text-align: center;
+}
+
 /*** Button Start ***/
 .btn {
     font-weight: 600;
